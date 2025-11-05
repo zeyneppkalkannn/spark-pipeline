@@ -1,17 +1,8 @@
-# Sanal Ortamı (venv) yoksay
 venv/
-
-# Tüm Veri Dosyalarını yoksay
-*.csv
-
-# Python cache dosyalarını yoksay
 __pycache__/
-
-# macOS gizli dosyalarını yoksay
-.DS_Store
-
-# MLflow'un yerel veritabanını yoksay
-mlflow.db
-
-# Log dosyalarını yoksay
+mlruns/
 *.log
+*.pyc
+*.pkl
+*.csv
+.DS_Store
