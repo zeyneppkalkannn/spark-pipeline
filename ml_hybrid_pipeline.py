@@ -10,7 +10,7 @@ import mlflow
 from prometheus_client import CollectorRegistry, Gauge, push_to_gateway
 
 # --- 1. Ayarlar ---
-BUYUK_VERI_SETI_YOLU = "TUBITAK_data_280925__041025_cleaned.csv" 
+BUYUK_VERI_SETI_YOLU = "tubitak_dataset_v2.csv" 
 OVERLAP_DOSYASI = "Overlap_matrix.csv"
 
 # Pipeline Parametreleri
