@@ -1,0 +1,39 @@
+# 📘 Data Drift Tespit Sistemi - Gerekli Kütüphaneler
+# ===================================================
+
+# Temel Kütüphaneler (Zorunlu)
+# -----------------------------
+# Bu projeyi çalıştırmak için kesinlikle lazım olan kütüphaneler.
+numpy>=1.23.0
+pandas>=2.0.0
+scikit-learn>=1.2.0
+scipy>=1.10.0
+matplotlib>=3.7.0
+
+# Opsiyonel Kütüphaneler (Autoencoder için)
+# ------------------------------------------
+# Eğer dE,AE isimli metriği (autoencoder tabanlı) kullanmak istiyorsan
+# aşağıdakilerin başındaki # işaretini kaldır ve yükle.
+# tensorflow>=2.11.0
+# keras>=2.11.0
+
+# Geliştirme ve Test için (İsteğe Bağlı)
+# ---------------------------------------
+# Bu kütüphaneler sadece test veya analiz sırasında işine yarar.
+# pytest>=7.4.0
+# jupyter>=1.0.0
+# seaborn>=0.12.0
+
+#  Nasıl Kurulur?
+# -----------------
+#
+# Sadece temel kurulum (Autoencoder kullanmayacaksan):
+#   pip install numpy pandas scikit-learn scipy matplotlib
+#
+# Tam kurulum (Autoencoder dahil hepsi):
+#   pip install -r requirements.txt
+#   pip install tensorflow
+#
+# Not:
+# - dP ve dE,PCA metrikleri TensorFlow olmadan da çalışır.
+# - Sadece dE,AE metriği için TensorFlow / Keras gerekir.
